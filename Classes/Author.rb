@@ -6,14 +6,7 @@ class Author
   attr_accessor :name, :biography
 
   def initialize(name, biography = nil)
-    puts validate_name(name)
-    @name, @biography = name, biography
-  end
-
-  protected
-
-  def validate_name(name)
-    is_string(name) && is_not_empty(name)
+    @name, @biography = name, biography if validate_string(name)
   end
 end
 

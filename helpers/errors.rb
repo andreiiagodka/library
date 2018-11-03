@@ -4,6 +4,12 @@ class NotStringError < StandardError
   end
 end
 
+class NotIntegerError < StandardError
+  def initialize(msg='Input is not an integer!')
+    super
+  end
+end
+
 class EmptyStringError < StandardError
   def initialize(msg='Input is empty!')
     super

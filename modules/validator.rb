@@ -11,6 +11,18 @@ module Validator
     is_string
   end
 
+  def is_integer(var)
+    is_integer = var.is_a? Integer
+
+    begin
+      raise NotIntegerError unless is_integer
+    rescue NotIntegerError => e
+      puts e.message
+    end
+
+    is_integer
+  end
+
   def is_not_empty(var)
     is_not_empty = !var.empty?
 

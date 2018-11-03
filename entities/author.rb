@@ -5,6 +5,7 @@ class Author
 
   def initialize(name, biography = nil)
     return unless validate(name)
+    
     @name = name
     @biography = biography
   end

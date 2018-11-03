@@ -1,10 +1,7 @@
-require './classes/author.rb'
-require './classes/book.rb'
 require './modules/validator.rb'
 require './helpers/errors.rb'
+require './entities/author.rb'
+require './entities/book.rb'
 
-author = Author.new('author', '24-12-1998')
-puts author
-
-book = Book.new('Book', 'Andrei')
-puts book
+author = Author.new('Andrei', '24-12-1998')
+book = Book.new('New Book', author)

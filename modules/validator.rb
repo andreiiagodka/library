@@ -1,25 +1,37 @@
 module Validator
   def is_string(var)
+    is_string = var.is_a? String
+
     begin
-      raise NotStringError unless var.is_a? String
+      raise NotStringError unless is_string
     rescue NotStringError => e
       puts e.message
     end
+
+    is_string
   end
 
   def is_not_empty(var)
+    is_not_empty = !var.empty?
+
     begin
-      raise EmptyStringError unless !var.empty?
+      raise EmptyStringError unless is_not_empty
     rescue EmptyStringError => e
       puts e.message
     end
+
+    is_not_empty
   end
 
   def is_instance_of(var, class_name)
+    is_instance_of = var.instance_of? class_name
+
     begin
-      raise NotInstanceError unless var.instance_of? class_name
+      raise NotInstanceError unless is_instance_of
     rescue NotInstanceError => e
       puts e.message
     end
+
+    is_instance_of
   end
 end

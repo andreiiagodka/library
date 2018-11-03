@@ -1,5 +1,3 @@
-require './Modules/Validator.rb'
-
 class Author
   include Validator
 
@@ -9,6 +7,3 @@ class Author
     @name, @biography = name, biography if validate_string(name)
   end
 end
-
-author = Author.new('Andrei', '24-12-1998')
-puts author

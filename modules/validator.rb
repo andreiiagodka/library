@@ -1,5 +1,3 @@
-require './Helpers/Errors.rb'
-
 module Validator
   def validate_string(string)
     is_string(string) && is_not_empty(string)

@@ -7,6 +7,6 @@ require './entities/reader.rb'
 require './entities/order.rb'
 
 author = Author.new('Andrei', '24-12-1998')
-book = Book.new('New Book', author)
+book   = Book.new('New Book', author)
 reader = Reader.new('Andrei', 'andrei.iagodka@gmail.com', 'Dnepr', 'Street', 20)
-order = Order.new(book, reader)
+order  = Order.new(book, reader)

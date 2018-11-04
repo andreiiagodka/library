@@ -5,7 +5,7 @@ class Book
 
   def initialize(title, author)
     return unless validate(title, author)
-    
+
     @title = title
     @author = author
   end
@@ -14,6 +14,6 @@ class Book
 
   def validate(title, author)
     is_string(title) && is_not_empty(title) &&
-    is_instance_of(author, Author)
+      is_instance_of(author, Author)
   end
 end

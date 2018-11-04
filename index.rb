@@ -1,12 +1,10 @@
 require 'date'
 require 'faker'
-require './modules/validator.rb'
-require './helpers/errors.rb'
-require './entities/author.rb'
-require './entities/book.rb'
-require './entities/reader.rb'
-require './entities/order.rb'
-require './entities/library.rb'
+require 'require_all'
+
+require_all './modules'
+require_all './helpers'
+require_all './entities'
 
 author = Author.new(Faker::Book.author, Faker::Lorem.sentence)
 

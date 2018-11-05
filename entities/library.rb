@@ -1,3 +1,5 @@
+require 'set'
+
 class Library
   include Validator
 
@@ -26,26 +28,31 @@ class Library
     @orders << order if is_instance_of(order, Order)
   end
 
-  def top_readers(quantity = 1)
-    return unless validate_entity(@readers, quantity)
-
-    hash_readers = create_hash(@readers)
-    count_orders(hash_readers, 'reader')
-    output_sorted_hash(hash_readers, quantity)
+  def top_readers(qty = 1)
+    sort_hash(@readers, 'reader', qty)
   end
 
-  def top_books(quantity = 1)
-    return unless validate_entity(@books, quantity)
+  def top_books(qty = 1, output = nil)
+    sort_hash(@books, 'book', qty, output)
+  end
 
-    hash_books = create_hash(@books)
-    count_orders(hash_books, 'book')
-    output_sorted_hash(hash_books, quantity)
+  def readers_number(qty = 3)
+    books = top_books_array(qty)
+    puts unique_readers(books).length
   end
 
   protected
 
-  def validate_entity(entity, quantity)
-    are_entities_set(entity) && over_quantity(entity, quantity)
+  def sort_hash(entities, entity, qty, output = nil)
+    return unless validate_entity(entities, qty)
+
+    hash_books = create_hash(entities)
+    count_orders(hash_books, entity)
+    output_sorted_hash(hash_books, qty, output)
+  end
+
+  def validate_entity(entity, qty)
+    are_entities_set(entity) && over_qty(entity, qty)
   end
 
   def create_hash(entities)
@@ -73,12 +80,30 @@ class Library
     end
   end
 
-  def output_sorted_hash(hash, quantity)
+  def output_sorted_hash(hash, qty, output)
     sorted_hash = hash.sort_by(&:last).reverse.to_a
-    endpoint = quantity - 1
-    
-    (0..endpoint).each do |key, _value|
-      puts "#{sorted_hash[key][0]}: #{sorted_hash[key][1]}"
+    endpoint = qty - 1
+
+    if output == 'hash'
+      sorted_hash
+    else
+      (0..endpoint).each do |key, _value|
+        puts "#{sorted_hash[key][0]}: #{sorted_hash[key][1]}"
+      end
     end
+  end
+
+  def top_books_array(qty)
+    books = []
+    top_books(qty, 'hash').each { |book| books << book[0] }
+    books
+  end
+
+  def unique_readers(books)
+    readers = Set.new
+    @orders.each do |order|
+      readers << order.reader.name if books.include? order.book.title
+    end
+    readers
   end
 end

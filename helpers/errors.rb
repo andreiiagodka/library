@@ -21,3 +21,15 @@ class NotInstanceError < StandardError
     super
   end
 end
+
+class NoEntitiesError < StandardError
+  def initialize(msg = 'There are no required entities!')
+    super
+  end
+end
+
+class OverQuantityError < StandardError
+  def initialize(msg = 'There are no such quantity of entities!')
+    super
+  end
+end

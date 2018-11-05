@@ -42,4 +42,26 @@ module Validator
       puts e.message
     end
   end
+
+  def are_entities_set(var)
+    are_entities_set = var.length > 0
+
+    begin
+      raise NoEntitiesError unless are_entities_set
+      are_entities_set
+    rescue NoEntitiesError => e
+      puts e.message
+    end
+  end
+
+  def over_quantity(var, quantity)
+    over_quantity = var.length >= quantity
+
+    begin
+      raise OverQuantityError unless over_quantity
+      over_quantity
+    rescue OverQuantityError => e
+      puts e.message
+    end
+  end
 end

@@ -28,7 +28,9 @@ order_c = Order.new(book_b, reader_b)
 library = Library.new
 
 # library.add_author(author)
-# library.add_book(book)
+
+library.add_book(book_a)
+library.add_book(book_b)
 
 library.add_reader(reader_a)
 library.add_reader(reader_b)
@@ -37,4 +39,5 @@ library.add_order(order_a)
 library.add_order(order_b)
 library.add_order(order_c)
 
-library.top_reader()
+# library.top_readers()
+library.top_books()

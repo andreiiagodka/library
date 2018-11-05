@@ -26,32 +26,59 @@ class Library
     @orders << order if is_instance_of(order, Order)
   end
 
-  def top_reader(quantity = 1)
-    return unless are_entities_set(@readers) && over_quantity(@readers, quantity)
+  def top_readers(quantity = 1)
+    return unless validate_entity(@readers, quantity)
 
-    hash_readers = set_readers_hash
-    count_orders(hash_readers)
-    output_readers(hash_readers, quantity)
+    hash_readers = create_hash(@readers)
+    count_orders(hash_readers, 'reader')
+    output_sorted_hash(hash_readers, quantity)
+  end
+
+  def top_books(quantity = 1)
+    return unless validate_entity(@books, quantity)
+
+    hash_books = create_hash(@books)
+    count_orders(hash_books, 'book')
+    output_sorted_hash(hash_books, quantity)
   end
 
   protected
 
-  def set_readers_hash
-    hash = Hash.new
-    @readers.each { |reader| hash.store(reader.name, 0)}
+  def validate_entity(entity, quantity)
+    are_entities_set(entity) && over_quantity(entity, quantity)
+  end
+
+  def create_hash(entities)
+    hash = {}
+    entities.each do |entity|
+      case entity
+      when Reader then entity_key = entity.name
+      when Book then entity_key = entity.title
+      end
+
+      hash.store(entity_key, 0)
+    end
+
     hash
   end
 
-  def count_orders(hash)
-    @orders.each { |order|
-      id = order.reader.name
+  def count_orders(hash, entity_name)
+    @orders.each do |order|
+      case entity_name
+      when 'reader' then id = order.reader.name
+      when 'book' then id = order.book.title
+      end
+
       hash.each { |key, value| hash[key] = value + 1 if key == id }
-    }
+    end
   end
 
-  def output_readers(hash, quantity)
+  def output_sorted_hash(hash, quantity)
     sorted_hash = hash.sort_by(&:last).reverse.to_a
     endpoint = quantity - 1
-    (0..endpoint).each { |key, value| puts "#{sorted_hash[key][0]}: #{sorted_hash[key][1]}" }
+    
+    (0..endpoint).each do |key, _value|
+      puts "#{sorted_hash[key][0]}: #{sorted_hash[key][1]}"
+    end
   end
 end

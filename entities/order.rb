@@ -1,3 +1,5 @@
+require 'date'
+
 class Order
   include Validator
 

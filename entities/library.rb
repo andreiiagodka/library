@@ -28,31 +28,30 @@ class Library
     @orders << order if is_instance_of(order, Order)
   end
 
-  def top_readers(qty = 1)
-    sort_hash(@readers, 'reader', qty)
+  def top_readers(quantity = 1)
+    sort_hash(@readers, quantity)
   end
 
-  def top_books(qty = 1, output = nil)
-    sort_hash(@books, 'book', qty, output)
+  def top_books(quantity = 1, output = nil)
+    sort_hash(@books, quantity, output)
   end
 
-  def readers_number(qty = 3)
-    books = top_books_array(qty)
-    puts unique_readers(books).length
+  def readers_number(quantity = 3)
+    books = top_books_array(quantity)
+    output_unique_readers_number(books)
   end
 
   protected
 
-  def sort_hash(entities, entity, qty, output = nil)
-    return unless validate_entity(entities, qty)
+  def sort_hash(entities, quantity, output = nil)
+    return unless validate_entity(entities, quantity)
 
-    hash_books = create_hash(entities)
-    count_orders(hash_books, entity)
-    output_sorted_hash(hash_books, qty, output)
+    hash = create_hash(entities)
+    sorted_hash(hash, quantity, output)
   end
 
-  def validate_entity(entity, qty)
-    are_entities_set(entity) && over_qty(entity, qty)
+  def validate_entity(entity, quantity)
+    are_entities_set(entity) && over_quantity(entity, quantity)
   end
 
   def create_hash(entities)
@@ -66,44 +65,48 @@ class Library
       hash.store(entity_key, 0)
     end
 
+    count_orders(hash, entities[0])
     hash
   end
 
-  def count_orders(hash, entity_name)
+  def count_orders(hash, entity)
     @orders.each do |order|
-      case entity_name
-      when 'reader' then id = order.reader.name
-      when 'book' then id = order.book.title
+      case entity
+      when Reader then id = order.reader.name
+      when Book then id = order.book.title
       end
 
       hash.each { |key, value| hash[key] = value + 1 if key == id }
     end
   end
 
-  def output_sorted_hash(hash, qty, output)
+  def sorted_hash(hash, quantity, output)
     sorted_hash = hash.sort_by(&:last).reverse.to_a
-    endpoint = qty - 1
 
-    if output == 'hash'
-      sorted_hash
-    else
-      (0..endpoint).each do |key, _value|
-        puts "#{sorted_hash[key][0]}: #{sorted_hash[key][1]}"
-      end
+    output ? sorted_hash : output_sorted_hash(sorted_hash, quantity)
+  end
+
+  def output_sorted_hash(sorted_hash, quantity)
+    endpoint = quantity - 1
+
+    (0..endpoint).each do |key, _value|
+      puts "#{sorted_hash[key][0]}: #{sorted_hash[key][1]}"
     end
   end
 
-  def top_books_array(qty)
+  def top_books_array(quantity)
     books = []
-    top_books(qty, 'hash').each { |book| books << book[0] }
+    top_books(quantity, true).each { |book| books << book[0] }
+
     books
   end
 
-  def unique_readers(books)
+  def output_unique_readers_number(books)
     readers = Set.new
     @orders.each do |order|
       readers << order.reader.name if books.include? order.book.title
     end
-    readers
+
+    puts readers.length
   end
 end

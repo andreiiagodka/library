@@ -29,7 +29,7 @@ order_h = Order.new(book_a, reader_c)
 order_i = Order.new(book_e, reader_a)
 
 library = Library.new
-library.add(author_a)
+
 library.add(author_a)
 library.add(author_b)
 library.add(author_c)
@@ -54,6 +54,6 @@ library.add(order_g)
 library.add(order_h)
 library.add(order_i)
 
-library.top_readers()
-library.top_books()
-library.unique_readers_number()
+# library.top_readers()
+# library.top_books()
+# library.unique_readers_number()

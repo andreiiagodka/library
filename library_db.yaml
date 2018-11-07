@@ -1,0 +1,169 @@
+--- !ruby/object:Author
+name: Dr. Moises Wilderman
+biography: Quis sit ut voluptatibus.
+--- !ruby/object:Author
+name: Ferdinand Runolfsson
+biography: Incidunt velit rem explicabo.
+--- !ruby/object:Author
+name: Beverlee Abshire MD
+biography: Rerum consequuntur repellendus molestiae.
+--- !ruby/object:Book
+title: The Moving Toyshop
+author: !ruby/object:Author
+  name: Cornelia Kautzer
+  biography: Quo dignissimos dolorem et.
+--- !ruby/object:Book
+title: Pale Kings and Princes
+author: !ruby/object:Author
+  name: Gerald Botsford
+  biography: Asperiores sunt magni provident.
+--- !ruby/object:Book
+title: The Last Temptation
+author: !ruby/object:Author
+  name: Kyoko Simonis
+  biography: Voluptatem est qui pariatur.
+--- !ruby/object:Book
+title: Everything is Illuminated
+author: !ruby/object:Author
+  name: Elin Prosacco
+  biography: Minima aut officia error.
+--- !ruby/object:Book
+title: Beyond the Mexique Bay
+author: !ruby/object:Author
+  name: Jacquelynn Gerhold
+  biography: Sunt qui dolorem quod.
+--- !ruby/object:Reader
+name: Randee
+email: raymondbaumbach@wiza.name
+city: Lake Jacintaton
+street: 2825 Monahan Forge
+house: 151
+--- !ruby/object:Reader
+name: Dusty
+email: mortonlangosh@renner.biz
+city: East Maximo
+street: 52365 Eliana Square
+house: 29578
+--- !ruby/object:Reader
+name: Troy
+email: trenton@rempelklein.biz
+city: New Lazaro
+street: 2876 Giuseppe Alley
+house: 600
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Moving Toyshop
+  author: !ruby/object:Author
+    name: Cornelia Kautzer
+    biography: Quo dignissimos dolorem et.
+reader: !ruby/object:Reader
+  name: Randee
+  email: raymondbaumbach@wiza.name
+  city: Lake Jacintaton
+  street: 2825 Monahan Forge
+  house: 151
+date: 2018-11-07
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Pale Kings and Princes
+  author: !ruby/object:Author
+    name: Gerald Botsford
+    biography: Asperiores sunt magni provident.
+reader: !ruby/object:Reader
+  name: Randee
+  email: raymondbaumbach@wiza.name
+  city: Lake Jacintaton
+  street: 2825 Monahan Forge
+  house: 151
+date: 2018-11-07
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Everything is Illuminated
+  author: !ruby/object:Author
+    name: Elin Prosacco
+    biography: Minima aut officia error.
+reader: !ruby/object:Reader
+  name: Randee
+  email: raymondbaumbach@wiza.name
+  city: Lake Jacintaton
+  street: 2825 Monahan Forge
+  house: 151
+date: 2018-11-07
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Pale Kings and Princes
+  author: !ruby/object:Author
+    name: Gerald Botsford
+    biography: Asperiores sunt magni provident.
+reader: !ruby/object:Reader
+  name: Troy
+  email: trenton@rempelklein.biz
+  city: New Lazaro
+  street: 2876 Giuseppe Alley
+  house: 600
+date: 2018-11-07
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Last Temptation
+  author: !ruby/object:Author
+    name: Kyoko Simonis
+    biography: Voluptatem est qui pariatur.
+reader: !ruby/object:Reader
+  name: Randee
+  email: raymondbaumbach@wiza.name
+  city: Lake Jacintaton
+  street: 2825 Monahan Forge
+  house: 151
+date: 2018-11-07
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Last Temptation
+  author: !ruby/object:Author
+    name: Kyoko Simonis
+    biography: Voluptatem est qui pariatur.
+reader: !ruby/object:Reader
+  name: Troy
+  email: trenton@rempelklein.biz
+  city: New Lazaro
+  street: 2876 Giuseppe Alley
+  house: 600
+date: 2018-11-07
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Beyond the Mexique Bay
+  author: !ruby/object:Author
+    name: Jacquelynn Gerhold
+    biography: Sunt qui dolorem quod.
+reader: !ruby/object:Reader
+  name: Dusty
+  email: mortonlangosh@renner.biz
+  city: East Maximo
+  street: 52365 Eliana Square
+  house: 29578
+date: 2018-11-07
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Moving Toyshop
+  author: !ruby/object:Author
+    name: Cornelia Kautzer
+    biography: Quo dignissimos dolorem et.
+reader: !ruby/object:Reader
+  name: Troy
+  email: trenton@rempelklein.biz
+  city: New Lazaro
+  street: 2876 Giuseppe Alley
+  house: 600
+date: 2018-11-07
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Beyond the Mexique Bay
+  author: !ruby/object:Author
+    name: Jacquelynn Gerhold
+    biography: Sunt qui dolorem quod.
+reader: !ruby/object:Reader
+  name: Randee
+  email: raymondbaumbach@wiza.name
+  city: Lake Jacintaton
+  street: 2825 Monahan Forge
+  house: 151
+date: 2018-11-07

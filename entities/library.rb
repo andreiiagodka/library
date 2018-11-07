@@ -2,6 +2,7 @@ require 'set'
 
 class Library
   include Validator
+  include DB
 
   attr_reader :authors, :books, :readers, :orders
 
@@ -10,6 +11,8 @@ class Library
     @books   = []
     @readers = []
     @orders  = []
+
+    DB.load(@authors, @books, @readers, @orders)
   end
 
   def add(entity)
@@ -19,6 +22,7 @@ class Library
     when Reader then @readers << entity
     when Order then @orders << entity
     end
+    DB.store(entity)
   end
 
   def top_readers(quantity = 1)

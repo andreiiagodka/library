@@ -12,17 +12,17 @@ class Library
     @readers = []
     @orders  = []
 
-    DB.load
+    DB.load(@authors, @books, @readers, @orders)
   end
 
-  def add(entity, db = false)
+  def add(entity)
     case entity
     when Author then @authors << entity
     when Book then @books << entity
     when Reader then @readers << entity
     when Order then @orders << entity
     end
-    DB.store(entity) if db == false
+    DB.store(entity)
   end
 
   def top_readers(quantity = 1)

@@ -1,5 +1,3 @@
-require 'require_all'
-
 require_all './entities'
 
 author_a = Seeder.author

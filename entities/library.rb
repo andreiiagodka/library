@@ -1,5 +1,3 @@
-require 'set'
-
 class Library
   include Validator
   include DB
@@ -11,7 +9,6 @@ class Library
     @books   = []
     @readers = []
     @orders  = []
-
     DB.load(@authors, @books, @readers, @orders)
   end
 
@@ -35,7 +32,7 @@ class Library
 
   def unique_readers_number(quantity = 3)
     books = top_books_array(quantity)
-    output_unique_readers_number(books)
+    output_unique_readers_number(books, @orders)
   end
 
   protected
@@ -60,17 +57,17 @@ class Library
                    end
       hash.store(entity_key, 0)
     end
-    result_orders_statistic(hash, entities[0])
+    result_orders_statistic(hash, entities[0], @orders)
     hash
   end
 
-  def result_orders_statistic(hash, entity)
-    @orders.each do |order|
+  def result_orders_statistic(hash, entity, orders)
+    orders.each do |order|
       id = case entity
            when Reader then order.reader.name
            when Book then order.book.title
            end
-      hash.each { |key, value| hash[key] = value + 1 if key == id }
+      hash.map { |key, value| hash[key] = value + 1 if key == id }
     end
   end
 
@@ -80,15 +77,14 @@ class Library
   end
 
   def output_sorted_hash(sorted_hash, quantity)
-    endpoint = quantity - 1
-    (0..endpoint).each do |key, _value|
+    (0...quantity).each do |key, _value|
       puts "#{sorted_hash[key][0]}: #{sorted_hash[key][1]}"
     end
   end
 
-  def output_unique_readers_number(books)
+  def output_unique_readers_number(books, orders)
     readers = Set.new
-    @orders.each do |order|
+    orders.each do |order|
       readers << order.reader.name if books.include? order.book.title
     end
     puts "Number of Readers of the Most Popular Books - #{readers.length}"

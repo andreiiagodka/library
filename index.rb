@@ -9,6 +9,6 @@ require_all './entities'
 
 library = Library.new
 
-puts library.top_readers()
-puts library.top_books()
-puts library.unique_readers_number()
+puts library.top_readers
+puts library.top_books
+puts library.unique_readers_number

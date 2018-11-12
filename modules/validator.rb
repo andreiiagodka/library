@@ -4,6 +4,7 @@ module Validator
 
     begin
       raise NotStringError unless is_string
+
       is_string
     rescue NotStringError => e
       puts e.message
@@ -15,6 +16,7 @@ module Validator
 
     begin
       raise NotIntegerError unless is_integer
+
       is_integer
     rescue NotIntegerError => e
       puts e.message
@@ -26,6 +28,7 @@ module Validator
 
     begin
       raise EmptyStringError unless is_not_empty
+
       is_not_empty
     rescue EmptyStringError => e
       puts e.message
@@ -37,6 +40,7 @@ module Validator
 
     begin
       raise NotInstanceError unless is_instance_of
+
       is_instance_of
     rescue NotInstanceError => e
       puts e.message
@@ -44,10 +48,11 @@ module Validator
   end
 
   def are_entities_set(var)
-    are_entities_set = var.length > 0
+    are_entities_set = !var.empty?
 
     begin
       raise NoEntitiesError unless are_entities_set
+
       are_entities_set
     rescue NoEntitiesError => e
       puts e.message
@@ -59,6 +64,7 @@ module Validator
 
     begin
       raise OverQuantityError unless over_quantity
+
       over_quantity
     rescue OverQuantityError => e
       puts e.message

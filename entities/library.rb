@@ -1,4 +1,3 @@
-require 'pry'
 class Library
   include Validator
   include DB
@@ -33,8 +32,8 @@ class Library
 
   def unique_readers_number(quantity = 3)
     top_books = get_statistics(@orders, 'book', quantity)
-    top_books.map! { |book| book = book.title }
-    readers = @orders.map! { |order| order = order.reader.name if top_books.include? order.book.title }
+    top_books.map!(&:title)
+    readers = @orders.map! { |order| order.reader.name if top_books.include? order.book.title }
     readers.compact.size
   end
 
@@ -52,10 +51,10 @@ class Library
 
   def sort_orders(orders, group_param, quantity)
     grouped_orders =
-    case group_param
-    when 'reader' then orders.group_by(&:reader)
-    when 'book' then orders.group_by(&:book)
-    end
+      case group_param
+      when 'reader' then orders.group_by(&:reader)
+      when 'book' then orders.group_by(&:book)
+      end
     grouped_orders.sort_by { |_param, order| -order.size }.first(quantity)
   end
 end

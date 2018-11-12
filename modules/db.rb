@@ -1,5 +1,5 @@
 module DB
-  YAML_FILE_PATH = 'library_db.yaml'
+  YAML_FILE_PATH = 'library_db.yaml'.freeze
 
   class << self
     def store(entity)
@@ -8,14 +8,14 @@ module DB
 
     def load(authors, books, readers, orders)
       records = YAML.load_stream(File.read(YAML_FILE_PATH))
-      records.each { |record|
+      records.each do |record|
         case record
         when Author then authors << record
         when Book then books << record
         when Reader then readers << record
         when Order then orders << record
         end
-      }
+      end
     end
   end
 end

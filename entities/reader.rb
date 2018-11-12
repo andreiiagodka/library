@@ -1,11 +1,13 @@
+require 'pry'
 class Reader
   include Validator
 
   attr_reader :name, :email, :city, :street, :house
 
   def initialize(name, email, city, street, house)
-    return unless validate(name, email, city, street, house)
-    
+    address_hash = { city: city, street: street, house: house }
+    return unless validate(name, email, address_hash)
+
     @name = name
     @email = email
     @city = city
@@ -15,11 +17,10 @@ class Reader
 
   protected
 
-  def validate(name, email, city, street, house)
-    is_string(name) && is_not_empty(name) &&
-    is_string(email) && is_not_empty(email) &&
-    is_string(city) && is_not_empty(city) &&
-    is_string(street) && is_not_empty(street) &&
-    is_integer(house)
+  def validate(name, email, address_hash)
+    [name, email, address_hash[:city], address_hash[:street]].each do |data|
+      is_string(data) && is_not_empty(data)
+    end
+    is_integer(address_hash[:house])
   end
 end

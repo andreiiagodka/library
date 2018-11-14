@@ -6,7 +6,7 @@ class Reader
 
   def initialize(name, email, city, street, house)
     address_hash = { city: city, street: street, house: house }
-    return unless validate(name, email, address_hash)
+    validate(name, email, address_hash)
 
     @name = name
     @email = email
@@ -15,11 +15,12 @@ class Reader
     @house = house
   end
 
-  protected
+  private
 
   def validate(name, email, address_hash)
     [name, email, address_hash[:city], address_hash[:street]].each do |data|
-      check_string(data) && check_not_empty(data)
+      check_string(data)
+      check_not_empty(data)
     end
     check_integer(address_hash[:house])
   end

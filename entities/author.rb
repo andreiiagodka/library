@@ -4,15 +4,16 @@ class Author
   attr_reader :name, :biography
 
   def initialize(name, biography = nil)
-    return unless validate(name)
+    validate(name)
 
     @name = name
     @biography = biography
   end
 
-  protected
+  private
 
   def validate(name)
-    check_string(name) && check_not_empty(name)
+    check_string(name)
+    check_not_empty(name)
   end
 end

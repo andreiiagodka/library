@@ -12,16 +12,17 @@ module Statistics
     orders.select { |order| order.reader.name if top_books.include? order.book.title }.compact.size
   end
 
-  protected
+  private
 
   def get_statistics(orders, group_param, quantity)
-    return unless validate_orders(orders, quantity)
+    validate_orders(orders, quantity)
 
     sort_orders(orders, group_param, quantity).to_h.keys
   end
 
   def validate_orders(entity, quantity)
-    are_entities_set(entity) && over_quantity(entity, quantity)
+    are_entities_set(entity)
+    over_quantity(entity, quantity)
   end
 
   def sort_orders(orders, group_param, quantity)

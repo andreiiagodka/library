@@ -1,5 +1,3 @@
-require_all './entities'
-
 author_a = Seeder.author
 author_b = Seeder.author
 author_c = Seeder.author

@@ -19,8 +19,8 @@ class Reader
 
   def validate(name, email, address_hash)
     [name, email, address_hash[:city], address_hash[:street]].each do |data|
-      is_string(data) && is_not_empty(data)
+      check_string(data) && check_not_empty(data)
     end
-    is_integer(address_hash[:house])
+    check_integer(address_hash[:house])
   end
 end

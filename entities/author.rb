@@ -13,6 +13,6 @@ class Author
   protected
 
   def validate(name)
-    is_string(name) && is_not_empty(name)
+    check_string(name) && check_not_empty(name)
   end
 end

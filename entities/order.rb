@@ -14,6 +14,6 @@ class Order
   protected
 
   def validate(book, reader, date)
-    is_instance_of(book, Book) && is_instance_of(reader, Reader) && is_instance_of(date, Date)
+    check_instance(book, Book) && check_instance(reader, Reader) && check_instance(date, Date)
   end
 end

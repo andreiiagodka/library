@@ -1,47 +1,47 @@
 module Validator
-  def is_string(var)
-    is_string = var.is_a? String
+  def check_string(var)
+    check_string = var.is_a? String
 
     begin
-      raise NotStringError unless is_string
+      raise NotStringError unless check_string
 
-      is_string
+      check_string
     rescue NotStringError => e
       puts e.message
     end
   end
 
-  def is_integer(var)
-    is_integer = var.is_a? Integer
+  def check_integer(var)
+    check_integer = var.is_a? Integer
 
     begin
-      raise NotIntegerError unless is_integer
+      raise NotIntegerError unless check_integer
 
-      is_integer
+      check_integer
     rescue NotIntegerError => e
       puts e.message
     end
   end
 
-  def is_not_empty(var)
-    is_not_empty = !var.empty?
+  def check_not_empty(var)
+    check_not_empty = !var.empty?
 
     begin
-      raise EmptyStringError unless is_not_empty
+      raise EmptyStringError unless check_not_empty
 
-      is_not_empty
+      check_not_empty
     rescue EmptyStringError => e
       puts e.message
     end
   end
 
-  def is_instance_of(var, class_name)
-    is_instance_of = var.instance_of? class_name
+  def check_instance(var, class_name)
+    check_instance = var.instance_of? class_name
 
     begin
-      raise NotInstanceError unless is_instance_of
+      raise NotInstanceError unless check_instance
 
-      is_instance_of
+      check_instance
     rescue NotInstanceError => e
       puts e.message
     end

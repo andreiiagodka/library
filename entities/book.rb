@@ -13,7 +13,7 @@ class Book
   protected
 
   def validate(title, author)
-    is_string(title) && is_not_empty(title) &&
-      is_instance_of(author, Author)
+    check_string(title) && check_not_empty(title) &&
+      check_instance(author, Author)
   end
 end

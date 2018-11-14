@@ -22,4 +22,10 @@ module Errors
       super
     end
   end
+
+  class NotLibraryEntityError < StandardError
+    def initialize(msg = "Library can't accept invalid entity!")
+      super
+    end
+  end
 end

@@ -1,15 +1,15 @@
 module Statistics
-  def top_readers(quantity = 1)
-    get_statistics(@orders, 'reader', quantity)
+  def top_readers(orders, quantity = 1)
+    get_statistics(orders, 'reader', quantity)
   end
 
-  def top_books(quantity = 1)
-    get_statistics(@orders, 'book', quantity)
+  def top_books(orders, quantity = 1)
+    get_statistics(orders, 'book', quantity)
   end
 
-  def unique_readers_number(quantity = 3)
-    top_books = get_statistics(@orders, 'book', quantity).map!(&:title)
-    @orders.select { |order| order.reader.name if top_books.include? order.book.title }.compact.size
+  def unique_readers_number(orders, quantity = 3)
+    top_books = get_statistics(orders, 'book', quantity).map!(&:title)
+    orders.select { |order| order.reader.name if top_books.include? order.book.title }.compact.size
   end
 
   protected

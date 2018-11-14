@@ -14,7 +14,7 @@ class Book
 
   def validate(title, author)
     check_string(title)
-    check_not_empty(title)
+    check_empty(title)
     check_instance(author, Author)
   end
 end

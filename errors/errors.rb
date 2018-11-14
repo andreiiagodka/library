@@ -1,35 +1,25 @@
-class NotStringError < StandardError
-  def initialize(msg = 'Input is not a string!')
-    super
+module Errors
+  class WrongClassError < StandardError
+    def initialize(msg = 'Input is of wrong class!')
+      super
+    end
   end
-end
 
-class NotIntegerError < StandardError
-  def initialize(msg = 'Input is not an integer!')
-    super
+  class EmptyObjectError < StandardError
+    def initialize(msg = 'Input is empty!')
+      super
+    end
   end
-end
 
-class EmptyStringError < StandardError
-  def initialize(msg = 'Input is empty!')
-    super
+  class NotInstanceError < StandardError
+    def initialize(msg = 'Input is not an instance of necessary class!')
+      super
+    end
   end
-end
 
-class NotInstanceError < StandardError
-  def initialize(msg = 'Input is not an instance of necessary class!')
-    super
-  end
-end
-
-class NoEntitiesError < StandardError
-  def initialize(msg = 'There are no required entities!')
-    super
-  end
-end
-
-class OverQuantityError < StandardError
-  def initialize(msg = 'There are no such quantity of entities!')
-    super
+  class OverQuantityError < StandardError
+    def initialize(msg = 'There are no such quantity of entities!')
+      super
+    end
   end
 end

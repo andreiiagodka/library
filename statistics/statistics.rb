@@ -21,8 +21,8 @@ module Statistics
   end
 
   def validate_orders(entity, quantity)
-    are_entities_set(entity)
-    over_quantity(entity, quantity)
+    check_empty(entity)
+    check_quantity(entity, quantity)
   end
 
   def sort_orders(orders, group_param, quantity)

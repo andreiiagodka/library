@@ -14,6 +14,6 @@ class Author
 
   def validate(name)
     check_string(name)
-    check_not_empty(name)
+    check_empty(name)
   end
 end

@@ -13,7 +13,7 @@ class Book
   private
 
   def validate(title, author)
-    check_string(title)
+    check_instance(title, String)
     check_empty(title)
     check_instance(author, Author)
   end

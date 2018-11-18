@@ -20,7 +20,7 @@ class Library
     when Book then @books << entity
     when Reader then @readers << entity
     when Order then @orders << entity
-    else raise NotLibraryEntityError
+    else raise WrongClassError
     end
     DB.store(entity)
   end

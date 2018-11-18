@@ -11,20 +11,8 @@ module Errors
     end
   end
 
-  class NotInstanceError < StandardError
-    def initialize(msg = 'Input is not an instance of necessary class!')
-      super
-    end
-  end
-
   class OverQuantityError < StandardError
     def initialize(msg = 'There are no such quantity of entities!')
-      super
-    end
-  end
-
-  class NotLibraryEntityError < StandardError
-    def initialize(msg = "Library can't accept invalid entity!")
       super
     end
   end

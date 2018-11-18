@@ -13,7 +13,7 @@ class Author
   private
 
   def validate(name)
-    check_string(name)
+    check_instance(name, String)
     check_empty(name)
   end
 end

@@ -10,8 +10,7 @@ class Library
     @books   = []
     @readers = []
     @orders  = []
-    entities_hash = { authors: @authors, books: @books, readers: @readers, orders: @orders }
-    DB.load(entities_hash)
+    load_from_db
   end
 
   def add(entity)
@@ -23,5 +22,11 @@ class Library
     else raise WrongClassError
     end
     DB.store(entity)
+  end
+
+  private
+
+  def load_from_db
+    DB.load.each { |record| add(record) }
   end
 end

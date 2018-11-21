@@ -1,0 +1,2034 @@
+--- !ruby/object:Author
+name: Victoria VonRueden
+biography: Ut et eos voluptatem.
+--- !ruby/object:Author
+name: Kanisha Skiles
+biography: Ab ullam doloribus earum.
+--- !ruby/object:Author
+name: Vennie Bashirian
+biography: Earum ut consequatur autem.
+--- !ruby/object:Author
+name: Miss Joesph Douglas
+biography: Quo dolores sapiente eaque.
+--- !ruby/object:Author
+name: Coleen Williamson
+biography: Velit numquam quam officia.
+--- !ruby/object:Book
+title: Arms and the Man
+author: !ruby/object:Author
+  name: Antonette Hoppe
+  biography: Vel et rerum et.
+--- !ruby/object:Book
+title: The Waste Land
+author: !ruby/object:Author
+  name: Latoya Sauer
+  biography: Error voluptatem porro sint.
+--- !ruby/object:Book
+title: The Needle's Eye
+author: !ruby/object:Author
+  name: Clifford Champlin
+  biography: Dolorem beatae enim culpa.
+--- !ruby/object:Book
+title: A Glass of Blessings
+author: !ruby/object:Author
+  name: Basil Schmitt
+  biography: Aut quaerat deleniti et.
+--- !ruby/object:Book
+title: The Wind's Twelve Quarters
+author: !ruby/object:Author
+  name: Ronald Jacobi
+  biography: Est voluptatem illum voluptatem.
+--- !ruby/object:Reader
+name: Cyrus
+email: xuanferry@tromp.name
+city: South Luigi
+street: 39604 Emory Tunnel
+house: 8701
+--- !ruby/object:Reader
+name: Franklin
+email: cathleendenesik@blick.biz
+city: Port Raphaelside
+street: 59435 Bernard Fork
+house: 241
+--- !ruby/object:Reader
+name: Vilma
+email: chad@dickinson.co
+city: North Clydeberg
+street: 426 Bill Mills
+house: 10687
+--- !ruby/object:Reader
+name: Aline
+email: isiah@swaniawski.org
+city: East Perry
+street: 897 Carla Park
+house: 69130
+--- !ruby/object:Reader
+name: Rigoberto
+email: jenkunde@walsh.name
+city: Port Rogelioview
+street: 4329 Bartell Forges
+house: 307
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Arms and the Man
+  author: !ruby/object:Author
+    name: Antonette Hoppe
+    biography: Vel et rerum et.
+reader: !ruby/object:Reader
+  name: Cyrus
+  email: xuanferry@tromp.name
+  city: South Luigi
+  street: 39604 Emory Tunnel
+  house: 8701
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Waste Land
+  author: !ruby/object:Author
+    name: Latoya Sauer
+    biography: Error voluptatem porro sint.
+reader: !ruby/object:Reader
+  name: Cyrus
+  email: xuanferry@tromp.name
+  city: South Luigi
+  street: 39604 Emory Tunnel
+  house: 8701
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Needle's Eye
+  author: !ruby/object:Author
+    name: Clifford Champlin
+    biography: Dolorem beatae enim culpa.
+reader: !ruby/object:Reader
+  name: Cyrus
+  email: xuanferry@tromp.name
+  city: South Luigi
+  street: 39604 Emory Tunnel
+  house: 8701
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: A Glass of Blessings
+  author: !ruby/object:Author
+    name: Basil Schmitt
+    biography: Aut quaerat deleniti et.
+reader: !ruby/object:Reader
+  name: Vilma
+  email: chad@dickinson.co
+  city: North Clydeberg
+  street: 426 Bill Mills
+  house: 10687
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Wind's Twelve Quarters
+  author: !ruby/object:Author
+    name: Ronald Jacobi
+    biography: Est voluptatem illum voluptatem.
+reader: !ruby/object:Reader
+  name: Cyrus
+  email: xuanferry@tromp.name
+  city: South Luigi
+  street: 39604 Emory Tunnel
+  house: 8701
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Needle's Eye
+  author: !ruby/object:Author
+    name: Clifford Champlin
+    biography: Dolorem beatae enim culpa.
+reader: !ruby/object:Reader
+  name: Vilma
+  email: chad@dickinson.co
+  city: North Clydeberg
+  street: 426 Bill Mills
+  house: 10687
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Wind's Twelve Quarters
+  author: !ruby/object:Author
+    name: Ronald Jacobi
+    biography: Est voluptatem illum voluptatem.
+reader: !ruby/object:Reader
+  name: Franklin
+  email: cathleendenesik@blick.biz
+  city: Port Raphaelside
+  street: 59435 Bernard Fork
+  house: 241
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Arms and the Man
+  author: !ruby/object:Author
+    name: Antonette Hoppe
+    biography: Vel et rerum et.
+reader: !ruby/object:Reader
+  name: Vilma
+  email: chad@dickinson.co
+  city: North Clydeberg
+  street: 426 Bill Mills
+  house: 10687
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Wind's Twelve Quarters
+  author: !ruby/object:Author
+    name: Ronald Jacobi
+    biography: Est voluptatem illum voluptatem.
+reader: !ruby/object:Reader
+  name: Aline
+  email: isiah@swaniawski.org
+  city: East Perry
+  street: 897 Carla Park
+  house: 69130
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: A Glass of Blessings
+  author: !ruby/object:Author
+    name: Basil Schmitt
+    biography: Aut quaerat deleniti et.
+reader: !ruby/object:Reader
+  name: Franklin
+  email: cathleendenesik@blick.biz
+  city: Port Raphaelside
+  street: 59435 Bernard Fork
+  house: 241
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Needle's Eye
+  author: !ruby/object:Author
+    name: Clifford Champlin
+    biography: Dolorem beatae enim culpa.
+reader: !ruby/object:Reader
+  name: Rigoberto
+  email: jenkunde@walsh.name
+  city: Port Rogelioview
+  street: 4329 Bartell Forges
+  house: 307
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Arms and the Man
+  author: !ruby/object:Author
+    name: Antonette Hoppe
+    biography: Vel et rerum et.
+reader: !ruby/object:Reader
+  name: Vilma
+  email: chad@dickinson.co
+  city: North Clydeberg
+  street: 426 Bill Mills
+  house: 10687
+date: 2018-11-09
+--- !ruby/object:Author
+name: Brady Lebsack
+biography: Aliquid et fugit vitae.
+--- !ruby/object:Author
+name: Angella Carroll
+biography: Itaque voluptas dignissimos illo.
+--- !ruby/object:Author
+name: Shelli Nitzsche
+biography: Pariatur voluptatem ut expedita.
+--- !ruby/object:Author
+name: Dr. Moshe Jacobson
+biography: Quibusdam quod est ut.
+--- !ruby/object:Author
+name: Cyrus McGlynn
+biography: Minus quo iusto amet.
+--- !ruby/object:Book
+title: Unweaving the Rainbow
+author: !ruby/object:Author
+  name: Clyde Bogan
+  biography: Illo maiores ut velit.
+--- !ruby/object:Book
+title: A Many-Splendoured Thing
+author: !ruby/object:Author
+  name: Mariam Mohr Sr.
+  biography: Itaque illo eos atque.
+--- !ruby/object:Book
+title: In Dubious Battle
+author: !ruby/object:Author
+  name: Dorothy Dibbert
+  biography: Ex quia delectus est.
+--- !ruby/object:Book
+title: Arms and the Man
+author: !ruby/object:Author
+  name: Frank Pacocha
+  biography: Sint dicta nihil voluptatem.
+--- !ruby/object:Book
+title: As I Lay Dying
+author: !ruby/object:Author
+  name: Erasmo Beier DDS
+  biography: Ab voluptas suscipit consequuntur.
+--- !ruby/object:Reader
+name: Maudie
+email: devorah@kuphal.name
+city: South Reidland
+street: 9338 Emilia Terrace
+house: 65159
+--- !ruby/object:Reader
+name: Roslyn
+email: tijuana@franecki.io
+city: Port Lesleyshire
+street: 360 Daugherty Fall
+house: 9091
+--- !ruby/object:Reader
+name: Mabelle
+email: chiquitarohan@mills.biz
+city: Huelstown
+street: 734 Bayer Stream
+house: 592
+--- !ruby/object:Reader
+name: Pamelia
+email: charlie@miller.net
+city: Marcifurt
+street: 7372 Bechtelar Forks
+house: 7332
+--- !ruby/object:Reader
+name: Lenard
+email: cesarmarvin@adamsernser.com
+city: Haucktown
+street: 9094 Medhurst Square
+house: 93267
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Unweaving the Rainbow
+  author: !ruby/object:Author
+    name: Clyde Bogan
+    biography: Illo maiores ut velit.
+reader: !ruby/object:Reader
+  name: Maudie
+  email: devorah@kuphal.name
+  city: South Reidland
+  street: 9338 Emilia Terrace
+  house: 65159
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: A Many-Splendoured Thing
+  author: !ruby/object:Author
+    name: Mariam Mohr Sr.
+    biography: Itaque illo eos atque.
+reader: !ruby/object:Reader
+  name: Maudie
+  email: devorah@kuphal.name
+  city: South Reidland
+  street: 9338 Emilia Terrace
+  house: 65159
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: In Dubious Battle
+  author: !ruby/object:Author
+    name: Dorothy Dibbert
+    biography: Ex quia delectus est.
+reader: !ruby/object:Reader
+  name: Maudie
+  email: devorah@kuphal.name
+  city: South Reidland
+  street: 9338 Emilia Terrace
+  house: 65159
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Arms and the Man
+  author: !ruby/object:Author
+    name: Frank Pacocha
+    biography: Sint dicta nihil voluptatem.
+reader: !ruby/object:Reader
+  name: Mabelle
+  email: chiquitarohan@mills.biz
+  city: Huelstown
+  street: 734 Bayer Stream
+  house: 592
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: As I Lay Dying
+  author: !ruby/object:Author
+    name: Erasmo Beier DDS
+    biography: Ab voluptas suscipit consequuntur.
+reader: !ruby/object:Reader
+  name: Maudie
+  email: devorah@kuphal.name
+  city: South Reidland
+  street: 9338 Emilia Terrace
+  house: 65159
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: In Dubious Battle
+  author: !ruby/object:Author
+    name: Dorothy Dibbert
+    biography: Ex quia delectus est.
+reader: !ruby/object:Reader
+  name: Mabelle
+  email: chiquitarohan@mills.biz
+  city: Huelstown
+  street: 734 Bayer Stream
+  house: 592
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: As I Lay Dying
+  author: !ruby/object:Author
+    name: Erasmo Beier DDS
+    biography: Ab voluptas suscipit consequuntur.
+reader: !ruby/object:Reader
+  name: Roslyn
+  email: tijuana@franecki.io
+  city: Port Lesleyshire
+  street: 360 Daugherty Fall
+  house: 9091
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Unweaving the Rainbow
+  author: !ruby/object:Author
+    name: Clyde Bogan
+    biography: Illo maiores ut velit.
+reader: !ruby/object:Reader
+  name: Mabelle
+  email: chiquitarohan@mills.biz
+  city: Huelstown
+  street: 734 Bayer Stream
+  house: 592
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: As I Lay Dying
+  author: !ruby/object:Author
+    name: Erasmo Beier DDS
+    biography: Ab voluptas suscipit consequuntur.
+reader: !ruby/object:Reader
+  name: Pamelia
+  email: charlie@miller.net
+  city: Marcifurt
+  street: 7372 Bechtelar Forks
+  house: 7332
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Arms and the Man
+  author: !ruby/object:Author
+    name: Frank Pacocha
+    biography: Sint dicta nihil voluptatem.
+reader: !ruby/object:Reader
+  name: Roslyn
+  email: tijuana@franecki.io
+  city: Port Lesleyshire
+  street: 360 Daugherty Fall
+  house: 9091
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: In Dubious Battle
+  author: !ruby/object:Author
+    name: Dorothy Dibbert
+    biography: Ex quia delectus est.
+reader: !ruby/object:Reader
+  name: Lenard
+  email: cesarmarvin@adamsernser.com
+  city: Haucktown
+  street: 9094 Medhurst Square
+  house: 93267
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Unweaving the Rainbow
+  author: !ruby/object:Author
+    name: Clyde Bogan
+    biography: Illo maiores ut velit.
+reader: !ruby/object:Reader
+  name: Mabelle
+  email: chiquitarohan@mills.biz
+  city: Huelstown
+  street: 734 Bayer Stream
+  house: 592
+date: 2018-11-09
+--- !ruby/object:Author
+name: Lashell Weber
+biography: Unde aspernatur at asperiores.
+--- !ruby/object:Author
+name: Carry Block
+biography: Vel dolor atque cumque.
+--- !ruby/object:Author
+name: Sherika Pagac
+biography: Debitis deserunt molestiae tempore.
+--- !ruby/object:Author
+name: Harry Reichert DDS
+biography: Ad accusantium vel ipsa.
+--- !ruby/object:Author
+name: Vella Crooks
+biography: Doloribus totam neque dolores.
+--- !ruby/object:Book
+title: Blood's a Rover
+author: !ruby/object:Author
+  name: Grant Tillman
+  biography: Voluptatem quod accusantium id.
+--- !ruby/object:Book
+title: A Scanner Darkly
+author: !ruby/object:Author
+  name: Victor Schroeder
+  biography: Sed accusamus pariatur ex.
+--- !ruby/object:Book
+title: That Hideous Strength
+author: !ruby/object:Author
+  name: Mrs. Britta Gibson
+  biography: Eum consequatur saepe laudantium.
+--- !ruby/object:Book
+title: Brandy of the Damned
+author: !ruby/object:Author
+  name: Dr. Ollie Mills
+  biography: Cupiditate repudiandae ut in.
+--- !ruby/object:Book
+title: When the Green Woods Laugh
+author: !ruby/object:Author
+  name: Tesha Yundt
+  biography: Consectetur id non non.
+--- !ruby/object:Reader
+name: Laurene
+email: tristanfeil@oberbrunnerturner.org
+city: Tillmanborough
+street: 61173 Shelton Forest
+house: 3794
+--- !ruby/object:Reader
+name: Karen
+email: jeniffer@legros.biz
+city: North Porfirio
+street: 61619 Conroy Mall
+house: 233
+--- !ruby/object:Reader
+name: Burl
+email: kayschultz@will.org
+city: Emmerichtown
+street: 70701 Abe Corners
+house: 681
+--- !ruby/object:Reader
+name: Wally
+email: harleypfannerstill@walter.name
+city: Hagenesport
+street: 49191 Tamar Plaza
+house: 56162
+--- !ruby/object:Reader
+name: Rosendo
+email: reitabeahan@carroll.io
+city: West Bennett
+street: 566 Tajuana Lights
+house: 994
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Blood's a Rover
+  author: !ruby/object:Author
+    name: Grant Tillman
+    biography: Voluptatem quod accusantium id.
+reader: !ruby/object:Reader
+  name: Laurene
+  email: tristanfeil@oberbrunnerturner.org
+  city: Tillmanborough
+  street: 61173 Shelton Forest
+  house: 3794
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: A Scanner Darkly
+  author: !ruby/object:Author
+    name: Victor Schroeder
+    biography: Sed accusamus pariatur ex.
+reader: !ruby/object:Reader
+  name: Laurene
+  email: tristanfeil@oberbrunnerturner.org
+  city: Tillmanborough
+  street: 61173 Shelton Forest
+  house: 3794
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: That Hideous Strength
+  author: !ruby/object:Author
+    name: Mrs. Britta Gibson
+    biography: Eum consequatur saepe laudantium.
+reader: !ruby/object:Reader
+  name: Laurene
+  email: tristanfeil@oberbrunnerturner.org
+  city: Tillmanborough
+  street: 61173 Shelton Forest
+  house: 3794
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Brandy of the Damned
+  author: !ruby/object:Author
+    name: Dr. Ollie Mills
+    biography: Cupiditate repudiandae ut in.
+reader: !ruby/object:Reader
+  name: Burl
+  email: kayschultz@will.org
+  city: Emmerichtown
+  street: 70701 Abe Corners
+  house: 681
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: When the Green Woods Laugh
+  author: !ruby/object:Author
+    name: Tesha Yundt
+    biography: Consectetur id non non.
+reader: !ruby/object:Reader
+  name: Laurene
+  email: tristanfeil@oberbrunnerturner.org
+  city: Tillmanborough
+  street: 61173 Shelton Forest
+  house: 3794
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: That Hideous Strength
+  author: !ruby/object:Author
+    name: Mrs. Britta Gibson
+    biography: Eum consequatur saepe laudantium.
+reader: !ruby/object:Reader
+  name: Burl
+  email: kayschultz@will.org
+  city: Emmerichtown
+  street: 70701 Abe Corners
+  house: 681
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: When the Green Woods Laugh
+  author: !ruby/object:Author
+    name: Tesha Yundt
+    biography: Consectetur id non non.
+reader: !ruby/object:Reader
+  name: Karen
+  email: jeniffer@legros.biz
+  city: North Porfirio
+  street: 61619 Conroy Mall
+  house: 233
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Blood's a Rover
+  author: !ruby/object:Author
+    name: Grant Tillman
+    biography: Voluptatem quod accusantium id.
+reader: !ruby/object:Reader
+  name: Burl
+  email: kayschultz@will.org
+  city: Emmerichtown
+  street: 70701 Abe Corners
+  house: 681
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: When the Green Woods Laugh
+  author: !ruby/object:Author
+    name: Tesha Yundt
+    biography: Consectetur id non non.
+reader: !ruby/object:Reader
+  name: Wally
+  email: harleypfannerstill@walter.name
+  city: Hagenesport
+  street: 49191 Tamar Plaza
+  house: 56162
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Brandy of the Damned
+  author: !ruby/object:Author
+    name: Dr. Ollie Mills
+    biography: Cupiditate repudiandae ut in.
+reader: !ruby/object:Reader
+  name: Karen
+  email: jeniffer@legros.biz
+  city: North Porfirio
+  street: 61619 Conroy Mall
+  house: 233
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: That Hideous Strength
+  author: !ruby/object:Author
+    name: Mrs. Britta Gibson
+    biography: Eum consequatur saepe laudantium.
+reader: !ruby/object:Reader
+  name: Rosendo
+  email: reitabeahan@carroll.io
+  city: West Bennett
+  street: 566 Tajuana Lights
+  house: 994
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Blood's a Rover
+  author: !ruby/object:Author
+    name: Grant Tillman
+    biography: Voluptatem quod accusantium id.
+reader: !ruby/object:Reader
+  name: Burl
+  email: kayschultz@will.org
+  city: Emmerichtown
+  street: 70701 Abe Corners
+  house: 681
+date: 2018-11-09
+--- !ruby/object:Author
+name: Eladia Stark
+biography: Ipsa modi ut est.
+--- !ruby/object:Author
+name: Elena Kutch
+biography: Dolor quaerat sunt non.
+--- !ruby/object:Author
+name: Dr. Weston Pouros
+biography: Explicabo modi qui a.
+--- !ruby/object:Author
+name: Thelma Davis
+biography: Distinctio blanditiis dolor quis.
+--- !ruby/object:Author
+name: Zachery Heidenreich
+biography: Natus esse et optio.
+--- !ruby/object:Book
+title: Oh! To be in England
+author: !ruby/object:Author
+  name: Frances Bruen
+  biography: Atque ducimus ut saepe.
+--- !ruby/object:Book
+title: Unweaving the Rainbow
+author: !ruby/object:Author
+  name: Shea Hegmann
+  biography: Sint dolores incidunt corporis.
+--- !ruby/object:Book
+title: Ring of Bright Water
+author: !ruby/object:Author
+  name: Madelaine Powlowski
+  biography: Omnis est ab ad.
+--- !ruby/object:Book
+title: The Monkey's Raincoat
+author: !ruby/object:Author
+  name: Devona Senger
+  biography: Vitae repellendus dolorem facilis.
+--- !ruby/object:Book
+title: The Wives of Bath
+author: !ruby/object:Author
+  name: Lester Schulist
+  biography: Velit rem tempora earum.
+--- !ruby/object:Reader
+name: Stefany
+email: ilenelegros@mosciski.name
+city: North Sena
+street: 953 Bergstrom Isle
+house: 8829
+--- !ruby/object:Reader
+name: Felecia
+email: flor@hettinger.io
+city: Zemlakborough
+street: 48682 Marybeth Ports
+house: 2231
+--- !ruby/object:Reader
+name: Christeen
+email: garnetpaucek@casper.co
+city: Evelinburgh
+street: 2475 Matha Course
+house: 84520
+--- !ruby/object:Reader
+name: Anibal
+email: tamika@ebertbednar.io
+city: Lake Alyson
+street: 7510 Melisa Drive
+house: 1298
+--- !ruby/object:Reader
+name: Cleo
+email: charliegaylord@yundtko.biz
+city: North Lanie
+street: 485 Schneider Viaduct
+house: 754
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Oh! To be in England
+  author: !ruby/object:Author
+    name: Frances Bruen
+    biography: Atque ducimus ut saepe.
+reader: !ruby/object:Reader
+  name: Stefany
+  email: ilenelegros@mosciski.name
+  city: North Sena
+  street: 953 Bergstrom Isle
+  house: 8829
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Unweaving the Rainbow
+  author: !ruby/object:Author
+    name: Shea Hegmann
+    biography: Sint dolores incidunt corporis.
+reader: !ruby/object:Reader
+  name: Stefany
+  email: ilenelegros@mosciski.name
+  city: North Sena
+  street: 953 Bergstrom Isle
+  house: 8829
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Ring of Bright Water
+  author: !ruby/object:Author
+    name: Madelaine Powlowski
+    biography: Omnis est ab ad.
+reader: !ruby/object:Reader
+  name: Stefany
+  email: ilenelegros@mosciski.name
+  city: North Sena
+  street: 953 Bergstrom Isle
+  house: 8829
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Monkey's Raincoat
+  author: !ruby/object:Author
+    name: Devona Senger
+    biography: Vitae repellendus dolorem facilis.
+reader: !ruby/object:Reader
+  name: Christeen
+  email: garnetpaucek@casper.co
+  city: Evelinburgh
+  street: 2475 Matha Course
+  house: 84520
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Wives of Bath
+  author: !ruby/object:Author
+    name: Lester Schulist
+    biography: Velit rem tempora earum.
+reader: !ruby/object:Reader
+  name: Stefany
+  email: ilenelegros@mosciski.name
+  city: North Sena
+  street: 953 Bergstrom Isle
+  house: 8829
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Ring of Bright Water
+  author: !ruby/object:Author
+    name: Madelaine Powlowski
+    biography: Omnis est ab ad.
+reader: !ruby/object:Reader
+  name: Christeen
+  email: garnetpaucek@casper.co
+  city: Evelinburgh
+  street: 2475 Matha Course
+  house: 84520
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Wives of Bath
+  author: !ruby/object:Author
+    name: Lester Schulist
+    biography: Velit rem tempora earum.
+reader: !ruby/object:Reader
+  name: Felecia
+  email: flor@hettinger.io
+  city: Zemlakborough
+  street: 48682 Marybeth Ports
+  house: 2231
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Oh! To be in England
+  author: !ruby/object:Author
+    name: Frances Bruen
+    biography: Atque ducimus ut saepe.
+reader: !ruby/object:Reader
+  name: Christeen
+  email: garnetpaucek@casper.co
+  city: Evelinburgh
+  street: 2475 Matha Course
+  house: 84520
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Wives of Bath
+  author: !ruby/object:Author
+    name: Lester Schulist
+    biography: Velit rem tempora earum.
+reader: !ruby/object:Reader
+  name: Anibal
+  email: tamika@ebertbednar.io
+  city: Lake Alyson
+  street: 7510 Melisa Drive
+  house: 1298
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Monkey's Raincoat
+  author: !ruby/object:Author
+    name: Devona Senger
+    biography: Vitae repellendus dolorem facilis.
+reader: !ruby/object:Reader
+  name: Felecia
+  email: flor@hettinger.io
+  city: Zemlakborough
+  street: 48682 Marybeth Ports
+  house: 2231
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Ring of Bright Water
+  author: !ruby/object:Author
+    name: Madelaine Powlowski
+    biography: Omnis est ab ad.
+reader: !ruby/object:Reader
+  name: Cleo
+  email: charliegaylord@yundtko.biz
+  city: North Lanie
+  street: 485 Schneider Viaduct
+  house: 754
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Oh! To be in England
+  author: !ruby/object:Author
+    name: Frances Bruen
+    biography: Atque ducimus ut saepe.
+reader: !ruby/object:Reader
+  name: Christeen
+  email: garnetpaucek@casper.co
+  city: Evelinburgh
+  street: 2475 Matha Course
+  house: 84520
+date: 2018-11-09
+--- !ruby/object:Author
+name: Trinity Walker
+biography: Sed dolores sed fuga.
+--- !ruby/object:Author
+name: Lai Altenwerth
+biography: Consequuntur libero ex porro.
+--- !ruby/object:Author
+name: Freddie Rowe
+biography: Dolorem minima dolor tenetur.
+--- !ruby/object:Author
+name: Joelle Lesch
+biography: Ut dignissimos autem quidem.
+--- !ruby/object:Author
+name: Brice Bradtke I
+biography: Quis ex et nihil.
+--- !ruby/object:Book
+title: Look Homeward, Angel
+author: !ruby/object:Author
+  name: Winston Legros
+  biography: Corrupti qui veniam doloremque.
+--- !ruby/object:Book
+title: The Yellow Meads of Asphodel
+author: !ruby/object:Author
+  name: Rosemarie Quigley PhD
+  biography: Magnam cum voluptatem sapiente.
+--- !ruby/object:Book
+title: The Moon by Night
+author: !ruby/object:Author
+  name: Lashaunda Gutkowski
+  biography: Voluptate est omnis dolor.
+--- !ruby/object:Book
+title: The Road Less Traveled
+author: !ruby/object:Author
+  name: Miss Mary Morissette
+  biography: Sit facere deserunt voluptatibus.
+--- !ruby/object:Book
+title: Nine Coaches Waiting
+author: !ruby/object:Author
+  name: Thomasena Kuhn Sr.
+  biography: Laboriosam non dolore nisi.
+--- !ruby/object:Reader
+name: Marcelo
+email: annicepredovic@ankundingboyle.name
+city: Romanaville
+street: 316 Viki Stream
+house: 517
+--- !ruby/object:Reader
+name: Christopher
+email: eartha@smith.info
+city: West Fern
+street: 536 Tristan Wells
+house: 18285
+--- !ruby/object:Reader
+name: Rodney
+email: jodikovacek@smith.co
+city: West Eliseoside
+street: 63456 Schuster Drive
+house: 22103
+--- !ruby/object:Reader
+name: Phillis
+email: abelhuels@ko.info
+city: O'Konhaven
+street: 771 Weissnat Island
+house: 968
+--- !ruby/object:Reader
+name: Barbara
+email: meridith@lockman.co
+city: South Lenny
+street: 45173 Patsy Lock
+house: 43033
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Look Homeward, Angel
+  author: !ruby/object:Author
+    name: Winston Legros
+    biography: Corrupti qui veniam doloremque.
+reader: !ruby/object:Reader
+  name: Marcelo
+  email: annicepredovic@ankundingboyle.name
+  city: Romanaville
+  street: 316 Viki Stream
+  house: 517
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Yellow Meads of Asphodel
+  author: !ruby/object:Author
+    name: Rosemarie Quigley PhD
+    biography: Magnam cum voluptatem sapiente.
+reader: !ruby/object:Reader
+  name: Marcelo
+  email: annicepredovic@ankundingboyle.name
+  city: Romanaville
+  street: 316 Viki Stream
+  house: 517
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Moon by Night
+  author: !ruby/object:Author
+    name: Lashaunda Gutkowski
+    biography: Voluptate est omnis dolor.
+reader: !ruby/object:Reader
+  name: Marcelo
+  email: annicepredovic@ankundingboyle.name
+  city: Romanaville
+  street: 316 Viki Stream
+  house: 517
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Road Less Traveled
+  author: !ruby/object:Author
+    name: Miss Mary Morissette
+    biography: Sit facere deserunt voluptatibus.
+reader: !ruby/object:Reader
+  name: Rodney
+  email: jodikovacek@smith.co
+  city: West Eliseoside
+  street: 63456 Schuster Drive
+  house: 22103
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Nine Coaches Waiting
+  author: !ruby/object:Author
+    name: Thomasena Kuhn Sr.
+    biography: Laboriosam non dolore nisi.
+reader: !ruby/object:Reader
+  name: Marcelo
+  email: annicepredovic@ankundingboyle.name
+  city: Romanaville
+  street: 316 Viki Stream
+  house: 517
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Moon by Night
+  author: !ruby/object:Author
+    name: Lashaunda Gutkowski
+    biography: Voluptate est omnis dolor.
+reader: !ruby/object:Reader
+  name: Rodney
+  email: jodikovacek@smith.co
+  city: West Eliseoside
+  street: 63456 Schuster Drive
+  house: 22103
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Nine Coaches Waiting
+  author: !ruby/object:Author
+    name: Thomasena Kuhn Sr.
+    biography: Laboriosam non dolore nisi.
+reader: !ruby/object:Reader
+  name: Christopher
+  email: eartha@smith.info
+  city: West Fern
+  street: 536 Tristan Wells
+  house: 18285
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Look Homeward, Angel
+  author: !ruby/object:Author
+    name: Winston Legros
+    biography: Corrupti qui veniam doloremque.
+reader: !ruby/object:Reader
+  name: Rodney
+  email: jodikovacek@smith.co
+  city: West Eliseoside
+  street: 63456 Schuster Drive
+  house: 22103
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Nine Coaches Waiting
+  author: !ruby/object:Author
+    name: Thomasena Kuhn Sr.
+    biography: Laboriosam non dolore nisi.
+reader: !ruby/object:Reader
+  name: Phillis
+  email: abelhuels@ko.info
+  city: O'Konhaven
+  street: 771 Weissnat Island
+  house: 968
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Road Less Traveled
+  author: !ruby/object:Author
+    name: Miss Mary Morissette
+    biography: Sit facere deserunt voluptatibus.
+reader: !ruby/object:Reader
+  name: Christopher
+  email: eartha@smith.info
+  city: West Fern
+  street: 536 Tristan Wells
+  house: 18285
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Moon by Night
+  author: !ruby/object:Author
+    name: Lashaunda Gutkowski
+    biography: Voluptate est omnis dolor.
+reader: !ruby/object:Reader
+  name: Barbara
+  email: meridith@lockman.co
+  city: South Lenny
+  street: 45173 Patsy Lock
+  house: 43033
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Look Homeward, Angel
+  author: !ruby/object:Author
+    name: Winston Legros
+    biography: Corrupti qui veniam doloremque.
+reader: !ruby/object:Reader
+  name: Rodney
+  email: jodikovacek@smith.co
+  city: West Eliseoside
+  street: 63456 Schuster Drive
+  house: 22103
+date: 2018-11-09
+--- !ruby/object:Author
+name: Lurline Grady
+biography: Animi est eum quam.
+--- !ruby/object:Author
+name: Alexis Schinner
+biography: Fugit nulla quis occaecati.
+--- !ruby/object:Author
+name: Mr. Marlon Spencer
+biography: Aliquam placeat in et.
+--- !ruby/object:Author
+name: Odette D'Amore
+biography: Quam et eveniet accusantium.
+--- !ruby/object:Author
+name: Mrs. Terrell Larkin
+biography: Non occaecati consequuntur repellat.
+--- !ruby/object:Book
+title: Vile Bodies
+author: !ruby/object:Author
+  name: Cordell Breitenberg
+  biography: Dolor veritatis consequatur neque.
+--- !ruby/object:Book
+title: Lilies of the Field
+author: !ruby/object:Author
+  name: Conrad Rippin
+  biography: Magni ex suscipit aut.
+--- !ruby/object:Book
+title: As I Lay Dying
+author: !ruby/object:Author
+  name: Jon Bode
+  biography: Modi culpa temporibus suscipit.
+--- !ruby/object:Book
+title: Oh! To be in England
+author: !ruby/object:Author
+  name: Miss Mathew O'Connell
+  biography: Quo velit maiores sed.
+--- !ruby/object:Book
+title: The Soldier's Art
+author: !ruby/object:Author
+  name: Darius King
+  biography: Unde harum libero perferendis.
+--- !ruby/object:Reader
+name: Corina
+email: hongmaggio@quigley.info
+city: Leliafurt
+street: 240 Bailey Drive
+house: 999
+--- !ruby/object:Reader
+name: Pierre
+email: waltergreenholt@kling.com
+city: Shirlview
+street: 353 Farrell Station
+house: 313
+--- !ruby/object:Reader
+name: Laurena
+email: royaldonnelly@wiegand.io
+city: Port Carmelita
+street: 522 Jonah Key
+house: 268
+--- !ruby/object:Reader
+name: Teisha
+email: leeannnicolas@hodkiewicz.com
+city: South Angela
+street: 6626 Klein Shore
+house: 1670
+--- !ruby/object:Reader
+name: Tillie
+email: norbertowiegand@kulas.io
+city: Port Lottie
+street: 6880 Kshlerin Overpass
+house: 9761
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Vile Bodies
+  author: !ruby/object:Author
+    name: Cordell Breitenberg
+    biography: Dolor veritatis consequatur neque.
+reader: !ruby/object:Reader
+  name: Corina
+  email: hongmaggio@quigley.info
+  city: Leliafurt
+  street: 240 Bailey Drive
+  house: 999
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Lilies of the Field
+  author: !ruby/object:Author
+    name: Conrad Rippin
+    biography: Magni ex suscipit aut.
+reader: !ruby/object:Reader
+  name: Corina
+  email: hongmaggio@quigley.info
+  city: Leliafurt
+  street: 240 Bailey Drive
+  house: 999
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: As I Lay Dying
+  author: !ruby/object:Author
+    name: Jon Bode
+    biography: Modi culpa temporibus suscipit.
+reader: !ruby/object:Reader
+  name: Corina
+  email: hongmaggio@quigley.info
+  city: Leliafurt
+  street: 240 Bailey Drive
+  house: 999
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Oh! To be in England
+  author: !ruby/object:Author
+    name: Miss Mathew O'Connell
+    biography: Quo velit maiores sed.
+reader: !ruby/object:Reader
+  name: Laurena
+  email: royaldonnelly@wiegand.io
+  city: Port Carmelita
+  street: 522 Jonah Key
+  house: 268
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Soldier's Art
+  author: !ruby/object:Author
+    name: Darius King
+    biography: Unde harum libero perferendis.
+reader: !ruby/object:Reader
+  name: Corina
+  email: hongmaggio@quigley.info
+  city: Leliafurt
+  street: 240 Bailey Drive
+  house: 999
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: As I Lay Dying
+  author: !ruby/object:Author
+    name: Jon Bode
+    biography: Modi culpa temporibus suscipit.
+reader: !ruby/object:Reader
+  name: Laurena
+  email: royaldonnelly@wiegand.io
+  city: Port Carmelita
+  street: 522 Jonah Key
+  house: 268
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Soldier's Art
+  author: !ruby/object:Author
+    name: Darius King
+    biography: Unde harum libero perferendis.
+reader: !ruby/object:Reader
+  name: Pierre
+  email: waltergreenholt@kling.com
+  city: Shirlview
+  street: 353 Farrell Station
+  house: 313
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Vile Bodies
+  author: !ruby/object:Author
+    name: Cordell Breitenberg
+    biography: Dolor veritatis consequatur neque.
+reader: !ruby/object:Reader
+  name: Laurena
+  email: royaldonnelly@wiegand.io
+  city: Port Carmelita
+  street: 522 Jonah Key
+  house: 268
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Soldier's Art
+  author: !ruby/object:Author
+    name: Darius King
+    biography: Unde harum libero perferendis.
+reader: !ruby/object:Reader
+  name: Teisha
+  email: leeannnicolas@hodkiewicz.com
+  city: South Angela
+  street: 6626 Klein Shore
+  house: 1670
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Oh! To be in England
+  author: !ruby/object:Author
+    name: Miss Mathew O'Connell
+    biography: Quo velit maiores sed.
+reader: !ruby/object:Reader
+  name: Pierre
+  email: waltergreenholt@kling.com
+  city: Shirlview
+  street: 353 Farrell Station
+  house: 313
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: As I Lay Dying
+  author: !ruby/object:Author
+    name: Jon Bode
+    biography: Modi culpa temporibus suscipit.
+reader: !ruby/object:Reader
+  name: Tillie
+  email: norbertowiegand@kulas.io
+  city: Port Lottie
+  street: 6880 Kshlerin Overpass
+  house: 9761
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Vile Bodies
+  author: !ruby/object:Author
+    name: Cordell Breitenberg
+    biography: Dolor veritatis consequatur neque.
+reader: !ruby/object:Reader
+  name: Laurena
+  email: royaldonnelly@wiegand.io
+  city: Port Carmelita
+  street: 522 Jonah Key
+  house: 268
+date: 2018-11-09
+--- !ruby/object:Author
+name: Chanel Dicki
+biography: Velit occaecati tempore est.
+--- !ruby/object:Author
+name: Mr. Adell Spencer
+biography: Sunt deleniti nihil ut.
+--- !ruby/object:Author
+name: Maria VonRueden
+biography: Aut quis nihil consectetur.
+--- !ruby/object:Author
+name: Hugh Goldner MD
+biography: Necessitatibus velit ex asperiores.
+--- !ruby/object:Author
+name: Sandie Monahan
+biography: Aliquid optio cumque praesentium.
+--- !ruby/object:Book
+title: Eyeless in Gaza
+author: !ruby/object:Author
+  name: Dovie Crooks
+  biography: Rerum expedita quam excepturi.
+--- !ruby/object:Book
+title: No Country for Old Men
+author: !ruby/object:Author
+  name: Magdalen Baumbach MD
+  biography: Qui alias et officiis.
+--- !ruby/object:Book
+title: All the King's Men
+author: !ruby/object:Author
+  name: Quintin Terry
+  biography: Ea quo animi aut.
+--- !ruby/object:Book
+title: The Sun Also Rises
+author: !ruby/object:Author
+  name: Mr. Owen Dare
+  biography: Illum ut magni sunt.
+--- !ruby/object:Book
+title: Stranger in a Strange Land
+author: !ruby/object:Author
+  name: Sulema Price
+  biography: Voluptatem non animi iusto.
+--- !ruby/object:Reader
+name: Alphonse
+email: jayne@romaguera.info
+city: Strosinside
+street: 7972 Dooley Mount
+house: 7282
+--- !ruby/object:Reader
+name: Kimbery
+email: vonnie@reillyspinka.name
+city: O'Konshire
+street: 793 Paucek Springs
+house: 1562
+--- !ruby/object:Reader
+name: Caitlyn
+email: elfreda@bergnaum.co
+city: Scotport
+street: 358 Edison Mountains
+house: 857
+--- !ruby/object:Reader
+name: Pat
+email: staci@torp.org
+city: Tedmouth
+street: 2622 Langworth Drive
+house: 147
+--- !ruby/object:Reader
+name: Ruthe
+email: aleciawill@priceblick.io
+city: New Annalisaview
+street: 32964 Benito Row
+house: 53080
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Eyeless in Gaza
+  author: !ruby/object:Author
+    name: Dovie Crooks
+    biography: Rerum expedita quam excepturi.
+reader: !ruby/object:Reader
+  name: Alphonse
+  email: jayne@romaguera.info
+  city: Strosinside
+  street: 7972 Dooley Mount
+  house: 7282
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: No Country for Old Men
+  author: !ruby/object:Author
+    name: Magdalen Baumbach MD
+    biography: Qui alias et officiis.
+reader: !ruby/object:Reader
+  name: Alphonse
+  email: jayne@romaguera.info
+  city: Strosinside
+  street: 7972 Dooley Mount
+  house: 7282
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: All the King's Men
+  author: !ruby/object:Author
+    name: Quintin Terry
+    biography: Ea quo animi aut.
+reader: !ruby/object:Reader
+  name: Alphonse
+  email: jayne@romaguera.info
+  city: Strosinside
+  street: 7972 Dooley Mount
+  house: 7282
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Sun Also Rises
+  author: !ruby/object:Author
+    name: Mr. Owen Dare
+    biography: Illum ut magni sunt.
+reader: !ruby/object:Reader
+  name: Caitlyn
+  email: elfreda@bergnaum.co
+  city: Scotport
+  street: 358 Edison Mountains
+  house: 857
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Stranger in a Strange Land
+  author: !ruby/object:Author
+    name: Sulema Price
+    biography: Voluptatem non animi iusto.
+reader: !ruby/object:Reader
+  name: Alphonse
+  email: jayne@romaguera.info
+  city: Strosinside
+  street: 7972 Dooley Mount
+  house: 7282
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: All the King's Men
+  author: !ruby/object:Author
+    name: Quintin Terry
+    biography: Ea quo animi aut.
+reader: !ruby/object:Reader
+  name: Caitlyn
+  email: elfreda@bergnaum.co
+  city: Scotport
+  street: 358 Edison Mountains
+  house: 857
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Stranger in a Strange Land
+  author: !ruby/object:Author
+    name: Sulema Price
+    biography: Voluptatem non animi iusto.
+reader: !ruby/object:Reader
+  name: Kimbery
+  email: vonnie@reillyspinka.name
+  city: O'Konshire
+  street: 793 Paucek Springs
+  house: 1562
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Eyeless in Gaza
+  author: !ruby/object:Author
+    name: Dovie Crooks
+    biography: Rerum expedita quam excepturi.
+reader: !ruby/object:Reader
+  name: Caitlyn
+  email: elfreda@bergnaum.co
+  city: Scotport
+  street: 358 Edison Mountains
+  house: 857
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Stranger in a Strange Land
+  author: !ruby/object:Author
+    name: Sulema Price
+    biography: Voluptatem non animi iusto.
+reader: !ruby/object:Reader
+  name: Pat
+  email: staci@torp.org
+  city: Tedmouth
+  street: 2622 Langworth Drive
+  house: 147
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Sun Also Rises
+  author: !ruby/object:Author
+    name: Mr. Owen Dare
+    biography: Illum ut magni sunt.
+reader: !ruby/object:Reader
+  name: Kimbery
+  email: vonnie@reillyspinka.name
+  city: O'Konshire
+  street: 793 Paucek Springs
+  house: 1562
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: All the King's Men
+  author: !ruby/object:Author
+    name: Quintin Terry
+    biography: Ea quo animi aut.
+reader: !ruby/object:Reader
+  name: Ruthe
+  email: aleciawill@priceblick.io
+  city: New Annalisaview
+  street: 32964 Benito Row
+  house: 53080
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Eyeless in Gaza
+  author: !ruby/object:Author
+    name: Dovie Crooks
+    biography: Rerum expedita quam excepturi.
+reader: !ruby/object:Reader
+  name: Caitlyn
+  email: elfreda@bergnaum.co
+  city: Scotport
+  street: 358 Edison Mountains
+  house: 857
+date: 2018-11-09
+--- !ruby/object:Author
+name: Claudio Anderson
+biography: Aut autem commodi distinctio.
+--- !ruby/object:Author
+name: Maximo Corwin
+biography: Praesentium molestiae eos adipisci.
+--- !ruby/object:Author
+name: Ian Hermiston
+biography: Dolorem omnis eos facilis.
+--- !ruby/object:Author
+name: Theda Powlowski
+biography: Aut ab ipsam veritatis.
+--- !ruby/object:Author
+name: Virgilio Kassulke
+biography: Ab et corporis quaerat.
+--- !ruby/object:Book
+title: Frequent Hearses
+author: !ruby/object:Author
+  name: Dot Watsica
+  biography: Voluptas quis et et.
+--- !ruby/object:Book
+title: Behold the Man
+author: !ruby/object:Author
+  name: Marcus Russel
+  biography: Dolore voluptas quae a.
+--- !ruby/object:Book
+title: The Torment of Others
+author: !ruby/object:Author
+  name: Stacy Friesen
+  biography: Eum et aliquam iusto.
+--- !ruby/object:Book
+title: The Stars' Tennis Balls
+author: !ruby/object:Author
+  name: Samual Goodwin
+  biography: Repellat nihil sint incidunt.
+--- !ruby/object:Book
+title: Cabbages and Kings
+author: !ruby/object:Author
+  name: Marlys Renner III
+  biography: Eaque vitae eligendi earum.
+--- !ruby/object:Reader
+name: Alessandra
+email: lishaturcotte@klocko.org
+city: Kirlinside
+street: 37674 Prohaska Views
+house: 9823
+--- !ruby/object:Reader
+name: Wayne
+email: kasey@breitenberg.org
+city: Frankmouth
+street: 3955 Coleman Square
+house: 5499
+--- !ruby/object:Reader
+name: Jason
+email: chanteframi@white.biz
+city: East Freddie
+street: 364 Wuckert Flats
+house: 4338
+--- !ruby/object:Reader
+name: Daniele
+email: kentkohler@olsonmclaughlin.biz
+city: New Elizaville
+street: 73087 Breitenberg Greens
+house: 52377
+--- !ruby/object:Reader
+name: Alysia
+email: catricekeebler@hahn.co
+city: Greenton
+street: 7680 Erdman Fields
+house: 527
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Frequent Hearses
+  author: !ruby/object:Author
+    name: Dot Watsica
+    biography: Voluptas quis et et.
+reader: !ruby/object:Reader
+  name: Alessandra
+  email: lishaturcotte@klocko.org
+  city: Kirlinside
+  street: 37674 Prohaska Views
+  house: 9823
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Behold the Man
+  author: !ruby/object:Author
+    name: Marcus Russel
+    biography: Dolore voluptas quae a.
+reader: !ruby/object:Reader
+  name: Alessandra
+  email: lishaturcotte@klocko.org
+  city: Kirlinside
+  street: 37674 Prohaska Views
+  house: 9823
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Torment of Others
+  author: !ruby/object:Author
+    name: Stacy Friesen
+    biography: Eum et aliquam iusto.
+reader: !ruby/object:Reader
+  name: Alessandra
+  email: lishaturcotte@klocko.org
+  city: Kirlinside
+  street: 37674 Prohaska Views
+  house: 9823
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Stars' Tennis Balls
+  author: !ruby/object:Author
+    name: Samual Goodwin
+    biography: Repellat nihil sint incidunt.
+reader: !ruby/object:Reader
+  name: Jason
+  email: chanteframi@white.biz
+  city: East Freddie
+  street: 364 Wuckert Flats
+  house: 4338
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Cabbages and Kings
+  author: !ruby/object:Author
+    name: Marlys Renner III
+    biography: Eaque vitae eligendi earum.
+reader: !ruby/object:Reader
+  name: Alessandra
+  email: lishaturcotte@klocko.org
+  city: Kirlinside
+  street: 37674 Prohaska Views
+  house: 9823
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Torment of Others
+  author: !ruby/object:Author
+    name: Stacy Friesen
+    biography: Eum et aliquam iusto.
+reader: !ruby/object:Reader
+  name: Jason
+  email: chanteframi@white.biz
+  city: East Freddie
+  street: 364 Wuckert Flats
+  house: 4338
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Cabbages and Kings
+  author: !ruby/object:Author
+    name: Marlys Renner III
+    biography: Eaque vitae eligendi earum.
+reader: !ruby/object:Reader
+  name: Wayne
+  email: kasey@breitenberg.org
+  city: Frankmouth
+  street: 3955 Coleman Square
+  house: 5499
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Frequent Hearses
+  author: !ruby/object:Author
+    name: Dot Watsica
+    biography: Voluptas quis et et.
+reader: !ruby/object:Reader
+  name: Jason
+  email: chanteframi@white.biz
+  city: East Freddie
+  street: 364 Wuckert Flats
+  house: 4338
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Cabbages and Kings
+  author: !ruby/object:Author
+    name: Marlys Renner III
+    biography: Eaque vitae eligendi earum.
+reader: !ruby/object:Reader
+  name: Daniele
+  email: kentkohler@olsonmclaughlin.biz
+  city: New Elizaville
+  street: 73087 Breitenberg Greens
+  house: 52377
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Stars' Tennis Balls
+  author: !ruby/object:Author
+    name: Samual Goodwin
+    biography: Repellat nihil sint incidunt.
+reader: !ruby/object:Reader
+  name: Wayne
+  email: kasey@breitenberg.org
+  city: Frankmouth
+  street: 3955 Coleman Square
+  house: 5499
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Torment of Others
+  author: !ruby/object:Author
+    name: Stacy Friesen
+    biography: Eum et aliquam iusto.
+reader: !ruby/object:Reader
+  name: Alysia
+  email: catricekeebler@hahn.co
+  city: Greenton
+  street: 7680 Erdman Fields
+  house: 527
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Frequent Hearses
+  author: !ruby/object:Author
+    name: Dot Watsica
+    biography: Voluptas quis et et.
+reader: !ruby/object:Reader
+  name: Jason
+  email: chanteframi@white.biz
+  city: East Freddie
+  street: 364 Wuckert Flats
+  house: 4338
+date: 2018-11-09
+--- !ruby/object:Author
+name: Idella Smith
+biography: Necessitatibus sed fugit dignissimos.
+--- !ruby/object:Author
+name: Chas Murazik II
+biography: Corporis dolorum soluta nihil.
+--- !ruby/object:Author
+name: Michel Johnston
+biography: Error laborum rem maxime.
+--- !ruby/object:Author
+name: Donny Ullrich
+biography: Incidunt voluptatem quis dolorem.
+--- !ruby/object:Author
+name: Tora Lakin
+biography: Aut autem a optio.
+--- !ruby/object:Book
+title: Ah, Wilderness!
+author: !ruby/object:Author
+  name: Mr. Gita Kunze
+  biography: A suscipit placeat magni.
+--- !ruby/object:Book
+title: All the King's Men
+author: !ruby/object:Author
+  name: Jonah Effertz
+  biography: Quo expedita in laborum.
+--- !ruby/object:Book
+title: The Sun Also Rises
+author: !ruby/object:Author
+  name: Thomasine Rogahn
+  biography: Consequatur omnis eaque occaecati.
+--- !ruby/object:Book
+title: Gone with the Wind
+author: !ruby/object:Author
+  name: Mr. Ignacio Nitzsche
+  biography: Ipsam dolor ipsa voluptatem.
+--- !ruby/object:Book
+title: Many Waters
+author: !ruby/object:Author
+  name: Mr. Luigi Heaney
+  biography: Veniam velit dolorum quisquam.
+--- !ruby/object:Reader
+name: Evelyn
+email: merilynhauck@nader.info
+city: South Laure
+street: 90082 Lorenzo Wall
+house: 906
+--- !ruby/object:Reader
+name: Arnulfo
+email: odellrogahn@reichert.io
+city: North Ruthanne
+street: 61710 Stracke Lodge
+house: 654
+--- !ruby/object:Reader
+name: Todd
+email: keneth@bechtelar.io
+city: North Jannet
+street: 1334 Elisha Way
+house: 505
+--- !ruby/object:Reader
+name: Selena
+email: jettiecollins@pacocha.name
+city: Hoegerborough
+street: 547 Diego Trail
+house: 65854
+--- !ruby/object:Reader
+name: Jonathan
+email: madlyn@batz.org
+city: Lake Kelseyview
+street: 90140 Maryrose Harbor
+house: 35129
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Ah, Wilderness!
+  author: !ruby/object:Author
+    name: Mr. Gita Kunze
+    biography: A suscipit placeat magni.
+reader: !ruby/object:Reader
+  name: Evelyn
+  email: merilynhauck@nader.info
+  city: South Laure
+  street: 90082 Lorenzo Wall
+  house: 906
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: All the King's Men
+  author: !ruby/object:Author
+    name: Jonah Effertz
+    biography: Quo expedita in laborum.
+reader: !ruby/object:Reader
+  name: Evelyn
+  email: merilynhauck@nader.info
+  city: South Laure
+  street: 90082 Lorenzo Wall
+  house: 906
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Sun Also Rises
+  author: !ruby/object:Author
+    name: Thomasine Rogahn
+    biography: Consequatur omnis eaque occaecati.
+reader: !ruby/object:Reader
+  name: Evelyn
+  email: merilynhauck@nader.info
+  city: South Laure
+  street: 90082 Lorenzo Wall
+  house: 906
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Gone with the Wind
+  author: !ruby/object:Author
+    name: Mr. Ignacio Nitzsche
+    biography: Ipsam dolor ipsa voluptatem.
+reader: !ruby/object:Reader
+  name: Todd
+  email: keneth@bechtelar.io
+  city: North Jannet
+  street: 1334 Elisha Way
+  house: 505
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Many Waters
+  author: !ruby/object:Author
+    name: Mr. Luigi Heaney
+    biography: Veniam velit dolorum quisquam.
+reader: !ruby/object:Reader
+  name: Evelyn
+  email: merilynhauck@nader.info
+  city: South Laure
+  street: 90082 Lorenzo Wall
+  house: 906
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Sun Also Rises
+  author: !ruby/object:Author
+    name: Thomasine Rogahn
+    biography: Consequatur omnis eaque occaecati.
+reader: !ruby/object:Reader
+  name: Todd
+  email: keneth@bechtelar.io
+  city: North Jannet
+  street: 1334 Elisha Way
+  house: 505
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Many Waters
+  author: !ruby/object:Author
+    name: Mr. Luigi Heaney
+    biography: Veniam velit dolorum quisquam.
+reader: !ruby/object:Reader
+  name: Arnulfo
+  email: odellrogahn@reichert.io
+  city: North Ruthanne
+  street: 61710 Stracke Lodge
+  house: 654
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Ah, Wilderness!
+  author: !ruby/object:Author
+    name: Mr. Gita Kunze
+    biography: A suscipit placeat magni.
+reader: !ruby/object:Reader
+  name: Todd
+  email: keneth@bechtelar.io
+  city: North Jannet
+  street: 1334 Elisha Way
+  house: 505
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Many Waters
+  author: !ruby/object:Author
+    name: Mr. Luigi Heaney
+    biography: Veniam velit dolorum quisquam.
+reader: !ruby/object:Reader
+  name: Selena
+  email: jettiecollins@pacocha.name
+  city: Hoegerborough
+  street: 547 Diego Trail
+  house: 65854
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Gone with the Wind
+  author: !ruby/object:Author
+    name: Mr. Ignacio Nitzsche
+    biography: Ipsam dolor ipsa voluptatem.
+reader: !ruby/object:Reader
+  name: Arnulfo
+  email: odellrogahn@reichert.io
+  city: North Ruthanne
+  street: 61710 Stracke Lodge
+  house: 654
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: The Sun Also Rises
+  author: !ruby/object:Author
+    name: Thomasine Rogahn
+    biography: Consequatur omnis eaque occaecati.
+reader: !ruby/object:Reader
+  name: Jonathan
+  email: madlyn@batz.org
+  city: Lake Kelseyview
+  street: 90140 Maryrose Harbor
+  house: 35129
+date: 2018-11-09
+--- !ruby/object:Order
+book: !ruby/object:Book
+  title: Ah, Wilderness!
+  author: !ruby/object:Author
+    name: Mr. Gita Kunze
+    biography: A suscipit placeat magni.
+reader: !ruby/object:Reader
+  name: Todd
+  email: keneth@bechtelar.io
+  city: North Jannet
+  street: 1334 Elisha Way
+  house: 505
+date: 2018-11-09
